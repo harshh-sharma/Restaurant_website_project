@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#heading{
+    letter-spacing: 1px;
+    font-size: 50px;
+    display: flex;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Basis Grotesque Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color:black;
+    font-size: 20px;
+    overflow: hidden;
+    width: 10em;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-weight: 700;
+}
